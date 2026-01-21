@@ -1,0 +1,1 @@
+removes everything in the file and writes this text to the file

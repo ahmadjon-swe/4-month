@@ -1,42 +1,39 @@
 "use strict";
 
-const fs = require("fs")
+const fs = require("fs");
 
-// fs.mkdir("__int_tests__", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("__mocks__", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("__tests__", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("coverage", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("dist", (err)=>{
-//     console.log(err);
-// })
+function addTxt(path){
+    fs.writeFileSync(`${path}/text.ts`, "file gitga ketishi uchun yozildi")
+}
 
-// fs.mkdir("docks", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("docks/api", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("scripts", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("scripts/deployment", (err)=>{
-//     console.log(err);
-// })
-// fs.mkdir("src", (err)=>{
-//     console.log(err);
-// })
+function mkdir(path, callback) {
+    fs.mkdir(path, (err) => {
+        console.log(err);
+    })
 
-// fs.writeFileSync("src/.gitignore", ".gitignore")
-// fs.writeFileSync("src/index.js", fs.readFileSync("./index.js"))
-// fs.writeFileSync("src/package.json", fs.readFileSync("./package.json"))
+    if(callback) callback(path)
+}
 
-// fs.rmSync("./index.js")
-// fs.rmSync("./package.json")
+
+mkdir("__int_tests__", addTxt)
+mkdir("__mocks__", addTxt)
+mkdir("__tests__", addTxt)
+mkdir("coverage", addTxt)
+mkdir("dist", addTxt)
+
+mkdir("docks")
+mkdir("docks/api", addTxt)
+
+mkdir("scripts")
+mkdir("scripts/deployment", addTxt)
+
+mkdir("src")
+
+
+
+fs.writeFileSync("src/.gitignore", "# .gitignore");
+fs.writeFileSync("src/index.js", fs.readFileSync("./index.js"));
+fs.writeFileSync("src/package.json", fs.readFileSync("./package.json"));
+
+fs.rmSync("./index.js");
+fs.rmSync("./package.json");

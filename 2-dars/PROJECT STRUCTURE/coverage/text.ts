@@ -1,0 +1,1 @@
+file gitga ketishi uchun yozildi

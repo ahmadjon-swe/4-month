@@ -1,7 +1,7 @@
 // const fs =require("fs")
 
 // fs.mkdirSync("../html", {recursive: true})
-// fs.writeFileSync("../html/indexed.html", "<>")
+// fs.writeFileSync("../html/index.html", "<>")
 // fs.writeFileSync("./script.ts", "// typescript")
 // fs.writeFileSync("./style.css", "/* css */")
 

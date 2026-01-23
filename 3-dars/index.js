@@ -40,3 +40,19 @@ const os = require("os")
 // const net = Object.entries(os.networkInterfaces())
 
 // console.log("interfeys:", net[0][0], "\nIP:", net[0][1][1].address, "\nMAC:", net[0][1][1].mac);
+
+// Additional ///////////////////////////////////////////////////////////////////////////
+
+function showMem() {
+    const os = require("os")
+    
+    const avl = (os.freemem()/1024/1024)
+    const total = os.totalmem()/1024/1024
+    return{
+        freeSysMem: avl,
+        memoryInUse: total-avl,
+        totalMem: total
+    }
+}
+
+console.log(showMem())

@@ -43,16 +43,38 @@ const os = require("os")
 
 // Additional ///////////////////////////////////////////////////////////////////////////
 
-function showMem() {
-    const os = require("os")
-    
-    const avl = (os.freemem()/1024/1024)
-    const total = os.totalmem()/1024/1024
-    return{
-        freeSysMem: avl,
-        memoryInUse: total-avl,
-        totalMem: total
-    }
-}
 
-console.log(showMem())
+// let previousTimes = os.cpus().map(cpu => cpu.times)
+
+// setInterval(()=>{
+//     const cpus = os.cpus()
+//     cpus.forEach((cpu, index)=>{
+//         const prevTimes = previousTimes[index]
+//         const currTimes = cpu.times
+
+//         const userDiff = currTimes.user - prevTimes.user
+//         const sysDiff = currTimes.sys - prevTimes.sys
+//         const idleDiff = currTimes.idle - prevTimes.idle
+//         const totalDiff = userDiff + sysDiff + idleDiff
+
+//         const usage = ((totalDiff - idleDiff)/totalDiff)*100
+//         console.log(`cpu ${index}: ${usage.toFixed(2)}% ishlatilmoqda`);
+//     })
+    
+//     // Oldingi holatni yangilash
+//     previousTimes = cpus.map(cpu => cpu.times)
+// }, 1000)
+
+// function showMem() {
+//     const os = require("os")
+    
+//     const avl = (os.freemem()/1024/1024)
+//     const total = os.totalmem()/1024/1024
+//     return{
+//         freeSysMem: avl,
+//         memoryInUse: total-avl,
+//         totalMem: total
+//     }
+// }
+
+// setInterval(()=>console.log(showMem()), 1000);

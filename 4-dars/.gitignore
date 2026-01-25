@@ -1,2 +1,4 @@
-node_modules
+node_modules/
 package-lock.json
+api/node_modules
+api/package-lock.json

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "a5b0c7f6-9c24-40f6-a555-4226b36f5785",
+        "brend": "Samsung S26 ultra",
+        "color": "grey",
+        "price": "1100"
+    },
+    {
+        "id": "649d5da6-ce19-479b-a7bc-c0e57e3ab7ec",
+        "brend": "Iphone 15",
+        "color": "black",
+        "price": "720"
+    },
+    {
+        "id": "3699d17e-f33d-449b-848d-de0f22f7fe15",
+        "brend": "Honor x9d",
+        "color": "red",
+        "price": "380"
+    },
+    {
+        "id": "3057f6bf-183e-4445-92c9-5f269b1bad71",
+        "brend": "Huawei mate XT",
+        "color": "red",
+        "price": "3300"
+    }
+]

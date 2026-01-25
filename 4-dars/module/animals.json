@@ -1,0 +1,26 @@
+[
+    {
+        "id": "4dc4b71d-d0a9-4c6c-a1b7-edcd140e3477",
+        "type": "wolf",
+        "color": "white",
+        "gender": "male"
+    },
+    {
+        "id": "372ec320-94a5-4c2c-9306-2b8abbb17fd9",
+        "type": "lion",
+        "color": "brown",
+        "gender": "male"
+    },
+    {
+        "id": "e478ef02-e9ba-4e5f-afe5-2cc2dfe4c758",
+        "type": "zebra",
+        "color": "white and black",
+        "gender": "female"
+    },
+    {
+        "id": "641ebcb5-150d-4ace-a54f-b7205e2a7833",
+        "type": "elephant",
+        "color": "dark grey",
+        "gender": "female"
+    }
+]

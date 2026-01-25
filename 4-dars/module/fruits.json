@@ -1,0 +1,32 @@
+[
+    {
+        "id": "8b950156-07cc-4c6b-9868-6e74da552e26",
+        "type": "apple",
+        "color": "red",
+        "price": "2.50"
+    },
+    {
+        "id": "693233b1-173d-4c72-b28a-f9c7d31cee3f",
+        "type": "banana",
+        "color": "yellow",
+        "price": "3.10"
+    },
+    {
+        "id": "20476b1b-d5fa-404b-8299-0e155a2ccfcc",
+        "type": "orange",
+        "color": "orange",
+        "price": "2.80"
+    },
+    {
+        "id": "65d8493a-5cc3-431d-a2d8-218ce9262f6c",
+        "type": "grape fruit",
+        "color": "green",
+        "price": "1.20"
+    },
+    {
+        "id": "0703054c-77d5-44a9-8bb3-6cd9ec777599",
+        "type": "cherry",
+        "color": "dark red",
+        "price": "3.00"
+    }
+]

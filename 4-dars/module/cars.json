@@ -1,0 +1,32 @@
+[
+    {
+        "id": "a8f85b3a-3867-4bf5-8440-38bc072f2659",
+        "brend": "BMW i5",
+        "color": "black",
+        "price": "124000"
+    },
+    {
+        "id": "0b8b0fea-49d6-4e3f-ab04-69b3c1967ab6",
+        "brend": "Audi X5",
+        "color": "brown",
+        "price": "249000"
+    },
+    {
+        "id": "bec0f44e-8776-423d-a529-e2d8f96f6a26",
+        "brend": "Chevrolet Cobalt Glt",
+        "color": "Summit-white",
+        "price": "13800"
+    },
+    {
+        "id": "87a8116c-bfe8-4cc1-ba3a-c963aff0a1dd",
+        "brend": "BYD chempion",
+        "color": "red",
+        "price": "45000"
+    },
+    {
+        "id": "13f5d7bc-9c93-4dce-a57f-3074339b2543",
+        "brend": "Mercedes Benz C-Class",
+        "color": "grey",
+        "price": "650000"
+    }
+]

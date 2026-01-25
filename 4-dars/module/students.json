@@ -1,0 +1,26 @@
+[
+    {
+        "id": "d5391ca2-5c06-4f99-9738-3db5040eeb57",
+        "name": "John Doe",
+        "age": "19",
+        "major": "Computer Science"
+    },
+    {
+        "id": "a4d9d51c-2db1-477f-a609-dd3693aff4d7",
+        "name": "Botir Qodirov",
+        "age": "22",
+        "major": "Machine Learning"
+    },
+    {
+        "id": "7a5ec088-735f-4294-b7e0-11d3b509fc1e",
+        "name": "Ahmadov Ahmadjon",
+        "age": "24",
+        "major": "Software Engineering"
+    },
+    {
+        "id": "388c6546-1c73-46ea-9950-dfccf29fdb22",
+        "name": "Mikle Jackson",
+        "age": "31",
+        "major": "Nevropodology"
+    }
+]

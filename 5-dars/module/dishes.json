@@ -1,0 +1,47 @@
+[
+    {
+        "id": "f86d4ebc-8b19-479c-8b78-223a1b9189f8",
+        "name": "Greek Salad",
+        "type": "diet",
+        "category": "salad",
+        "calories": 350,
+        "is_vegeterian": true,
+        "price": 6.99
+    },
+    {
+        "id": "9b06582d-7daa-42a7-b411-7f04003efe02",
+        "name": "Chicken Soup",
+        "type": "diet",
+        "category": "starter",
+        "calories": 280,
+        "is_vegeterian": false,
+        "price": 4.99
+    },
+    {
+        "id": "b8973d0e-f51c-443c-abe0-7ba632ef0f88",
+        "name": "Grilled Salmon",
+        "type": "seafood",
+        "category": "main course",
+        "calories": 610,
+        "is_vegeterian": false,
+        "price": 14.99
+    },
+    {
+        "id": "81a04f08-b9ca-4e1e-b689-5818d944cf08",
+        "name": "Vegetable Pasta",
+        "type": "vegeterian",
+        "category": "main course",
+        "calories": 520,
+        "is_vegeterian": true,
+        "price": 7.5
+    },
+    {
+        "id": "664288a2-33a0-44e6-b53c-fe7ca6feece2",
+        "name": "Beef Burger",
+        "type": "fastfood",
+        "category": "main course",
+        "calories": 750,
+        "is_vegeterian": false,
+        "price": 8.99
+    }
+]

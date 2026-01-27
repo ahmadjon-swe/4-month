@@ -1,0 +1,30 @@
+[
+    {
+        "id": "7d9c8a34-fbab-4b80-837b-e33ddda7cbe5",
+        "name": "Cristiano Ronaldo",
+        "age": "31",
+        "gender": "Male",
+        "diagnosis": "Injury"
+    },
+    {
+        "id": "1f740581-99fb-43cc-a1e4-86a19d1bc901",
+        "name": "John Doe",
+        "age": "25",
+        "gender": "Male",
+        "diagnosis": "Flu"
+    },
+    {
+        "id": "b9d00c84-5457-41a7-a761-b928c6526123",
+        "name": "Maria Smith",
+        "age": "55",
+        "gender": "female",
+        "diagnosis": "damaged knee"
+    },
+    {
+        "id": "1fdff0e7-c090-4ebe-a25b-3cb6cda9f341",
+        "name": "Alice Mersy",
+        "age": "64",
+        "gender": "female",
+        "diagnosis": "hedema"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "274bc731-7d8a-4503-8034-ed464f711328",
+        "name": "Jeckie Chan",
+        "age": "12",
+        "major": "Comedy"
+    },
+    {
+        "id": "8b8746b5-6d11-4012-bf95-db9bb232b420",
+        "name": "Albert Eynshteyn",
+        "age": "46",
+        "major": "Barber"
+    },
+    {
+        "id": "1892bbbb-ff10-44aa-b44a-a0fb0bfaf02a",
+        "name": "Donald Trump",
+        "age": "88",
+        "major": "fairy-tale"
+    },
+    {
+        "id": "94dd39d4-0d51-4a74-b7d6-1774116d1dab",
+        "name": "John Doe",
+        "age": "20",
+        "major": "Computer Science"
+    },
+    {
+        "id": "c5924bb9-548e-448e-a330-6e01fa246b96",
+        "name": "Cristiano Ronaldo",
+        "age": "31",
+        "major": "Sports"
+    }
+]
